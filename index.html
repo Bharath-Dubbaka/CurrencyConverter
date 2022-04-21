@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div style="display: flex;justify-content: center;">
+            <div style="display: flex;flex-direction: column;">
+                <label for="inputAmt">Amount</label>
+                <input type="number" style="width: 100px;" class="inputNumber">
+            </div>
+            <div style="margin-left: 50px;display: flex;flex-direction: column">
+                <label  for="dropdown">Select</label>
+                <!-- <input class="dropdown"  type="submit"> -->
+                <select name="dropdown" class="drop">
+                    <option value="INR">INR</option>
+                    <option value="INR">USD</option>
+                    <option value="INR">EURO</option>
+                    <option value="INR">EURO</option>
+                </select>
+            </div>
+        </div>
+
+        <div style="display: flex;justify-content: center;margin-top: 30px;" >
+            <input type="submit" class="submitBtn">
+        </div>
+
+        <div style="display: flex;;margin-top: 30px; justify-content: space-around; margin-left: 20%;margin-right: 20%;">
+            <div>
+                <label style="border: 1px black solid" for="INR">INR</label>
+                <!-- <hr> -->
+                <div style="border: 1px black solid" class="inrValue"></div>
+            </div>
+            <!-- <hr> -->
+            <div >
+                <label style="border: 1px black solid" for="INR" for="USD">USD</label>
+                <!-- <hr> -->
+                <div style="border: 1px black solid" class="usdValue"></div>
+            </div>
+            <!-- <hr> -->
+            <div >
+                <label style="border: 1px black solid" for="INR" for="pound">Pound</label>
+                <!-- <hr> -->
+                <div  style="border: 1px black solid" class="poundValue"></div>
+            </div>
+            <!-- <hr> -->
+            <div >
+                <label style="border: 1px black solid" for="INR" for="euro">Euro</label>
+                <!-- <hr> -->
+                <div style="border: 1px black solid" class="euroValue"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
